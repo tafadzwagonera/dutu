@@ -1,15 +1,21 @@
-Dutu
+Dutu 
 ====
 
-Dutu is a small PHP dependency injection container for PHP 5.3 that
-consists of a file with about a hundred lines of code. Dutu is a 
-derivation of Fabien Pontencier's Pimple **but** its style of 
-operation is different from Pimple. Dutu's style of operation has 
-one goal in mind: **intuitive** use.
+Dutu Dependency Injection (DI) container is a small PHP container 
+for PHP 5.3 developed as part of Dutu Core (core libraries for the
+upcoming Dutu framework). Dutu (DI) or simply Dutu (not to be 
+confused with the framework itself), influenced by Fabien Pontencier's
+Pimple_, was designed to be intuitive, scalable and flexible.
 
-To use Dutu download it and require it in your code::
+.. _Dutu: http://www.dutu.com/
+
+.. _Pimple: https://github.com/fabpot/Pimple
+
+To use Dutu download_ it and require it in your code::
 
     require_once '/path/to/Dutu.php';
+
+.. _download: https://github.com/tafadzwagonera/dutu
 
 and then create the container by instantiating the ``Dutu`` class::
 
