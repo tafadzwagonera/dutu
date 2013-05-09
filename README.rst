@@ -2,7 +2,7 @@ Dutu
 ====
 
 Dutu Dependency Injection (DI) container is a small PHP container 
-for PHP 5.3 developed as part of Dutu Core (core libraries for the
+for PHP 5.3.x developed as part of Dutu Core (core libraries for the
 upcoming Dutu framework). Dutu (DI) or simply Dutu (not to be 
 confused with the Dutu framework on which it is meant for), 
 influenced by Fabien Pontencier's Pimple_, was designed to be
